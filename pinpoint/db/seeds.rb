@@ -22,4 +22,6 @@ entertainment = Category.create(name: "Arts/Entertainment")
 
 
 
-activity1 = Activity.create(name:"Hometown", description:"delicious hotpot", lat:40.719403, long:-73.996870, completed:false, user_id:user2 category_id:food)
+activity1 = Activity.create(name:"Hometown", description:"delicious hotpot", lat:40.719403, long:-73.996870, completed:false, user_id:2, category_id:1)
+activity2 = Activity.create(name: "Skiing", description:"Skiing @ JHMR", lat: 43.587332, long: -110.829230, completed: false, user_id:3, category_id: 2)
+activity3 = Activity.create(name:"Yeethoven @ Lincoln Center", description:"Kanye + Baethoven", lat:40.772728, long:-73.983467, completed:false, user_id:1, category_id:4)
