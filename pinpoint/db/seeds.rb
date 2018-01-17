@@ -15,6 +15,11 @@ user2 = User.create(name:"paul", current_lat:40.724087,
 current_long:-73.985179, email:"paul@paul.com", password:"paulpaul")
 user3 = User.create(name:"jake", current_lat:43.519145, current_long:-110.841258, email:"jake@jake.com", password:"jakejake")
 
+food = Category.create(name: "Food")
+outdoors = Category.create(name: "Outdoors")
+sports = Category.create(name: "Sports")
+entertainment = Category.create(name: "Arts/Entertainment")
 
 
-activity1 = Activity.create(name:"Hometown", description:"delicious hotpot", lat:40.719403, long:-73.996870, completed:false, user_id:user2 category_id:restaurant)
+
+activity1 = Activity.create(name:"Hometown", description:"delicious hotpot", lat:40.719403, long:-73.996870, completed:false, user_id:user2 category_id:food)
