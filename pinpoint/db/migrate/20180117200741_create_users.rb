@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.float :current_lat
       t.float :current_long
       t.string :email
-      t.string :password
+      t.string :password_digest
 
       t.timestamps
     end

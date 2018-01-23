@@ -19,6 +19,11 @@ class Api::V1::ActivitiesController < ApplicationController
     end
   end
 
+  def destroy
+    activity = Activity.find(params[:id])
+    activity.destroy
+  end
+
   private
   def activity_params
     params.permit(:name, :description, :lat, :long, :completed, :user_id, :category_id)

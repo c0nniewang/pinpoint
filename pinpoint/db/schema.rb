@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 20180117201445) do
     t.float "current_lat"
     t.float "current_long"
     t.string "email"
-    t.string "password"
+    t.string "password_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
